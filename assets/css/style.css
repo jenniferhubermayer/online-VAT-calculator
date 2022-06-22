@@ -1,0 +1,127 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 70vw;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+h1{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    color: rgb(255, 149, 0);
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    color: rgb(255, 149, 0);
+    font-size: 1.25rem;
+    padding: 10px 0 1rem 10px;
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: lighter;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+span{
+    color: red;
+    font-weight: bold;
+}
+
+.bruttoBetrag,
+.mwstBetrag{
+    font-weight: bold;
+    color: rgb(216, 126, 1);
+}
+
+main{
+    max-width: 500px;
+}
+
+main,
+hr{
+    border: 2px solid rgb(255, 149, 0);
+}
+
+section{
+    border-radius: 20px 20px 0 0;
+}
+
+fieldset:nth-of-type(1){
+    border-radius: 20px 20px 0 0;
+}
+
+article:last-of-type{
+    border-radius: 0 0 20px 20px;
+}
+
+main{
+    border-radius: 20px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+fieldset{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
+fieldset,
+article{
+    padding: 10px;
+    background-color: lightblue;
+}
+fieldset,
+article:not(article:last-of-type){
+    border-bottom: 5px solid white;
+}
+
+input[type="number"],
+input[type="submit"],
+input[type="radio"],
+label{
+    display: inline-block;
+}
+
+input[type="submit"]{
+    width: 90vw;
+    padding: 5px;
+    margin: 20px;
+    color: white;
+    background-color: rgb(255, 149, 0);
+    border: none;
+    border-radius: 4px;
+}
+
+p{
+    padding-bottom: 1rem;
+}
+
+input[type="number"]{
+    padding: 5px 10px;
+}
