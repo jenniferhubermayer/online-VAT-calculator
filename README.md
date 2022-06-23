@@ -21,7 +21,7 @@ In this project we implement a VAT calculator app using JavaScript. In Germany t
 
 ### Screenshot
 
-![](./screenshot/Screenshot%202022-06-22%20at%2017-23-24%20Mehrwertsteuer-Rechner.png)
+![](./screenshot/Screenshot-Mehrwertsteuer-Rechner.png)
 
 ### Links
 
