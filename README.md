@@ -43,4 +43,4 @@ In this project we implement a VAT calculator app using JavaScript. In Germany t
 
 ## Acknowledgments
 
-This project has been realized as part of the Super(Code) "Front-End Boot-Camp 2022".
+This project has been realized as part of the [super(c)ode](https://www.super-code.de/) "Front-End Boot-Camp 2022".
